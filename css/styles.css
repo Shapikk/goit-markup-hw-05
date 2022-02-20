@@ -63,7 +63,10 @@ span.studio {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -72,7 +75,8 @@ span.studio {
 .site-nav .link.current {
   color: var(--address-color);
 }
-.auth-nav li {
+.auth-nav {
+  display: flex;
   outline: 1px solid transparent;
 }
 .auth-nav .link {
