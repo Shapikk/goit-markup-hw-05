@@ -14,11 +14,23 @@ body {
 h2,
 h3 {
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   color: var(--address-color);
 
@@ -32,6 +44,17 @@ span.studio {
   color: var(--title-text-color);
 }
 /*Переходы на страницы*/
+.site-nav {
+  display: flex;
+}
+.site-nav .item {
+  outline: 1px solid transparent;
+  margin-right: 50px;
+}
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -40,6 +63,7 @@ span.studio {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  display: block;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -47,6 +71,9 @@ span.studio {
 }
 .site-nav .link.current {
   color: var(--address-color);
+}
+.auth-nav li {
+  outline: 1px solid transparent;
 }
 .auth-nav .link {
   color: var(--primery-text-color);
@@ -64,28 +91,46 @@ span.studio {
 .hero {
   background-color: #2f303a;
   transform: perspective(normal);
+  text-align: center;
 }
 .hero-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
-  text-align: center;
+
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 /* Секция 2,3 */
+.site-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 
 .site-name {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14px;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .site-p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+}
+
+.site-img {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 /* Секция 4  */
 .section-com {
@@ -96,6 +141,14 @@ span.studio {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  max-width: 0;
+  margin-bottom: 0px;
+}
+.site-com {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 .site-job {
   font-size: 16px;
@@ -146,6 +199,9 @@ span.studio-two {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  border: 1px solid transparent;
+  padding: 10px 32px;
 }
 /* Потрфолио кнопки  */
 .button.secondary {
@@ -156,6 +212,9 @@ span.studio-two {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 6px 22px;
 }
 .button.secondary:hover {
   color: #ffffff;
