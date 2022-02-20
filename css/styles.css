@@ -17,7 +17,6 @@ h3 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
 .list {
   list-style: none;
   padding: 0;
@@ -30,7 +29,6 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .logo {
   color: var(--address-color);
 
@@ -39,22 +37,25 @@ h3 {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  margin-right: 93px;
 }
 span.studio {
   color: var(--title-text-color);
 }
 /*Переходы на страницы*/
+.header {
+  display: flex;
+  align-items: center;
+}
 .site-nav {
   display: flex;
 }
 .site-nav .item {
   outline: 1px solid transparent;
-  margin-right: 50px;
 }
-.site-nav .item:last-child {
-  margin-right: 0;
+.site-nav .item + .item {
+  margin-left: 50px;
 }
-
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -78,6 +79,10 @@ span.studio {
 .auth-nav {
   display: flex;
   outline: 1px solid transparent;
+  margin-left: auto;
+}
+.auth-nav .item + .item {
+  margin-left: 50px;
 }
 .auth-nav .link {
   color: var(--primery-text-color);
@@ -86,6 +91,10 @@ span.studio {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
