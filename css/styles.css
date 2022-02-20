@@ -117,13 +117,15 @@ span.studio {
   margin-bottom: 30px;
 }
 /* Секция 2,3 */
+.delete {
+  visibility: hidden;
+}
 .site-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
 }
-
 .site-name {
   font-weight: bold;
   font-size: 14px;
@@ -131,20 +133,30 @@ span.studio {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  margin-right: 30px;
 }
 .site-p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  margin-right: 30px;
 }
-
 .site-img {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
+.img-g {
+  margin-right: 30px;
+}
+.img-g:last-child {
+  margin-right: 0;
+}
+
 /* Секция 4  */
 .section-com {
   background-color: #f5f4fa;
@@ -173,10 +185,15 @@ span.studio {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 /* Footer*/
 .footer-site {
   background-color: #2f303a;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 span.studio-two {
   color: #ffffff;
@@ -208,11 +225,10 @@ span.studio-two {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   border: 1px solid transparent;
   padding: 10px 32px;
 }
