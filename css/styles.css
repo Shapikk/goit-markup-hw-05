@@ -17,6 +17,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 10px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .list {
   list-style: none;
   padding: 0;
@@ -148,7 +152,6 @@ span.studio {
   margin: 0;
   display: flex;
   margin-top: 0;
-  margin-bottom: 94px;
 }
 .img-g {
   margin-right: 30px;
@@ -166,7 +169,6 @@ span.studio {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  max-width: 0;
   margin-bottom: 0px;
 }
 .site-com {
@@ -194,6 +196,7 @@ span.studio {
 
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 120px;
 }
 span.studio-two {
   color: #ffffff;
