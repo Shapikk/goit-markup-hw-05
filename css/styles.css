@@ -247,6 +247,8 @@ span.studio-two {
   border-radius: 4px;
   border: 1px solid transparent;
   padding: 6px 22px;
+  display: inline-block;
+  margin-left: 8px;
 }
 .button.secondary:hover {
   color: #ffffff;
@@ -258,3 +260,6 @@ span.studio-two {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.decor {
+  display: flex;
+  justify-content: center;
