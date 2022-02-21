@@ -200,13 +200,16 @@ span.studio {
   margin-top: 0;
   margin-bottom: 50px;
 }
+.site-div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* Footer*/
 .footer-site {
   background-color: #2f303a;
 
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 120px;
 }
 span.studio-two {
   color: #ffffff;
@@ -224,6 +227,10 @@ span.studio-two {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  margin-bottom: 60px;
+}
+.site-nav:not(:first-child) {
+  margin-bottom: 0;
 }
 .site-address .link:hover,
 .site-address .link:focus {
