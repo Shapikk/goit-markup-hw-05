@@ -122,6 +122,9 @@ span.studio {
   margin-bottom: 30px;
 }
 /* Секция 2,3 */
+.section-title {
+  padding-bottom: 0;
+}
 .delete {
   position: absolute;
   width: 1px;
@@ -141,6 +144,12 @@ span.studio {
   margin: 0;
   display: flex;
 }
+.li-li {
+  width: 270px;
+}
+.li-li:not(:last-child) {
+  margin-right: 30px;
+}
 .site-name {
   font-weight: bold;
   font-size: 14px;
@@ -151,7 +160,7 @@ span.studio {
 .site-p {
   font-size: 14px;
   line-height: 1.7;
-  margin-right: 30px;
+  margin: 0;
 }
 .site-p:not(:last-child) {
   margin-right: 0;
@@ -161,15 +170,17 @@ span.studio {
   padding: 0;
   margin: 0;
   display: flex;
-  margin-top: 0;
 }
 .img-g {
   margin-right: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .img-g:last-child {
   margin-right: 0;
 }
-
 /* Секция 4  */
 .section-com {
   background-color: #f5f4fa;
@@ -179,7 +190,7 @@ span.studio {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .site-com {
   list-style: none;
@@ -191,6 +202,7 @@ span.studio {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin: 0;
 }
 .site-htwo {
   font-weight: bold;
@@ -205,6 +217,15 @@ span.studio {
   padding-bottom: 30px;
 }
 /* Footer*/
+.logo-two {
+  color: var(--address-color);
+
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
 .footer-site {
   background-color: #2f303a;
 
@@ -220,6 +241,8 @@ span.studio-two {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .site-address .link {
   color: rgba(255, 255, 255, 0.6);
@@ -236,6 +259,10 @@ span.studio-two {
 .site-address .link:focus {
   color: var(--address-color);
 }
+.mail-tell:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* Кнопка */
 .button {
   background-color: var(--address-color);
