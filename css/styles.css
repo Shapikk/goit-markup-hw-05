@@ -157,26 +157,6 @@ span.studio {
 .li-li:not(:last-child) {
   margin-right: 30px;
 }
-.li-li::before {
-  display: block;
-  content: '';
-  height: 170px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-one::before {
-  background-image: url(../images/Group1.jpg);
-}
-.icon-two::before {
-  background-image: url(../images/Group2.jpg);
-}
-.icon-three::before {
-  background-image: url(../images/Group3.jpg);
-}
-.icon-four::before {
-  background-image: url(../images/Group4.jpg);
-}
 
 .site-name {
   font-weight: bold;
