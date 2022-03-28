@@ -108,6 +108,7 @@ span.studio {
 .auth-nav .link:focus {
   color: var(--address-color);
 }
+
 /* Секция 1  */
 .hero {
   background-color: #2f303a;
