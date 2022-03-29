@@ -108,12 +108,6 @@ span.studio {
 .auth-nav .link:focus {
   color: var(--address-color);
 }
-.icon-mail {
-  left: 65.75%;
-  right: 33.25%;
-  top: 1.16%;
-  bottom: 98.43%;
-}
 
 /* Секция 1  */
 .hero {
@@ -231,6 +225,11 @@ span.studio {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.icon-media {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-around;
+}
 /* Footer*/
 .logo-two {
   color: var(--address-color);
@@ -278,7 +277,14 @@ span.studio-two {
 .mail-tell:not(:last-child) {
   margin-bottom: 9px;
 }
-
+.follow {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
 /* Кнопка */
 .button {
   background-color: var(--address-color);
