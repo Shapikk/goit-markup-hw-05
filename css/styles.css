@@ -2,6 +2,8 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --address-color: #2196f3;
+  --icon-color: #757575;
+  --icon-colors: #ffffff;
 }
 body {
   color: var(--primery-text-color);
@@ -108,7 +110,18 @@ span.studio {
 .auth-nav .link:focus {
   color: var(--address-color);
 }
-
+.icon-mail {
+  fill: var(--icon-color);
+}
+.icon-mail:hover {
+  fill: #2196f3;
+}
+.icon-tell {
+  fill: var(--icon-color);
+}
+.icon-tell:hover {
+  fill: var(--address-color);
+}
 /* Секция 1  */
 .hero {
   background-color: #2f303a;
@@ -190,6 +203,7 @@ span.studio {
 .img-g:last-child {
   margin-right: 0;
 }
+
 /* Секция 4  */
 .section-com {
   background-color: #f5f4fa;
@@ -230,6 +244,7 @@ span.studio {
   display: inline-flex;
   justify-content: space-around;
 }
+
 /* Footer*/
 .logo-two {
   color: var(--address-color);
