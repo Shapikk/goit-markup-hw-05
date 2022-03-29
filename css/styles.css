@@ -204,6 +204,14 @@ span.studio {
   margin-right: 0;
 }
 
+.box {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: grid;
+  justify-content: center;
+}
 /* Секция 4  */
 .section-com {
   background-color: #f5f4fa;
@@ -242,9 +250,12 @@ span.studio {
 .icon-media {
   text-decoration: none;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-
+/*Клиенты*/
+.site-clients {
+  margin: 0;
+}
 /* Footer*/
 .logo-two {
   color: var(--address-color);
@@ -300,6 +311,7 @@ span.studio-two {
   line-height: 1.1;
   letter-spacing: 0.03em;
 }
+
 /* Кнопка */
 .button {
   background-color: var(--address-color);
