@@ -209,7 +209,7 @@ span.studio {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  display: grid;
+  display: flex;
   justify-content: center;
 }
 /* Секция 4  */
@@ -248,14 +248,31 @@ span.studio {
   padding-bottom: 30px;
 }
 .icon-media {
-  text-decoration: none;
+  list-style: none;
   display: inline-flex;
-  justify-content: space-between;
 }
-/*Клиенты*/
+/*Секция 5*/
 .site-clients {
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: flex;
 }
+.boxs {
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.icon-media {
+  margin-right: 30px;
+}
+.icon-mail:not(:last-child) {
+  margin-right: 0;
+}
+
 /* Footer*/
 .logo-two {
   color: var(--address-color);
