@@ -301,7 +301,24 @@ span.studio {
   box-sizing: border-box;
   border-radius: 4px;
 }
-
+.icons-medias {
+  margin-right: 30px;
+}
+.icons-medias:not:last-child {
+  margin-right: 0;
+}
+.boxs-boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxs-boxs {
+  fill: var(--insta-color);
+}
+.boxs-boxs:focus,
+.boxs-boxs:hover {
+  fill: var(--address-color);
+}
 /* Footer*/
 .logo-two {
   color: var(--address-color);
@@ -356,6 +373,34 @@ span.studio-two {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+}
+
+.follow-list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+.icon-medias {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+  padding: 0;
+}
+.follow-li {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.follow-li {
+  fill: var(--icon-colors);
+}
+.icon-medias:hover {
+  background: var(--address-color);
 }
 
 /* Кнопка */
