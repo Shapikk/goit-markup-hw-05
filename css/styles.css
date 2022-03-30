@@ -50,6 +50,7 @@ span.studio {
 /*Переходы на страницы*/
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .header-top {
@@ -110,6 +111,7 @@ span.studio {
 .auth-nav .link:focus {
   color: var(--address-color);
 }
+
 .icon-mail {
   fill: var(--icon-color);
 }
@@ -205,12 +207,15 @@ span.studio {
 }
 
 .box {
-  width: 270px;
-  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 270px;
+  min-height: 120px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
 }
 /* Секция 4  */
 .section-com {
@@ -233,7 +238,8 @@ span.studio {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
 .site-htwo {
   font-weight: bold;
@@ -247,9 +253,27 @@ span.studio {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.icon-media {
+.icons-media {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
   list-style: none;
-  display: inline-flex;
+}
+.icon-media {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.icon-media:not(:last-child) {
+  margin-right: 0;
+}
+.icon-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 /*Секция 5*/
 .site-clients {
@@ -265,12 +289,6 @@ span.studio {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.icon-media {
-  margin-right: 30px;
-}
-.icon-mail:not(:last-child) {
-  margin-right: 0;
 }
 
 /* Footer*/
