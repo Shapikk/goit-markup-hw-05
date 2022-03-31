@@ -294,32 +294,32 @@ span.studio {
   margin: 0;
   display: flex;
 }
-.boxs {
+.icons-medias-li {
   width: 170px;
   height: 92px;
 
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.icons-medias {
-  margin-right: 30px;
-}
-.icons-medias:not:last-child {
-  margin-right: 0;
-}
-.boxs-boxs {
+
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 30px;
+  fill: #afb1b8;
 }
-.boxs-boxs {
-  fill: var(--insta-color);
+.icons-medias-li:not(:last-child) {
+  margin-right: 0;
 }
-.boxs-boxs:focus,
-.boxs-boxs:hover {
+.icons-medias-li:hover,
+.icons-medias-li:focus {
+  border: 1px solid #2196f3;
   fill: var(--address-color);
 }
+/*.boxs-boxs {
+  fill: var(--insta-color);
+}*/
+
 /* Footer*/
 .logo-two {
   color: var(--address-color);
