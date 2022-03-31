@@ -98,7 +98,7 @@ span.studio {
 }
 .auth-nav .link {
   color: var(--primery-text-color);
-
+  fill: #afb1b8;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -264,14 +264,6 @@ span.studio {
 .icon-media:not(:last-child) {
   margin-right: 0;
 }
-.icon-media {
-  fill: var(--icon-color);
-}
-.icon-media:hover,
-.icon-media:focus {
-  background-color: var(--address-color);
-  fill: var(--icon-colors);
-}
 .icon-media-list {
   display: flex;
   justify-content: center;
@@ -279,12 +271,11 @@ span.studio {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  fill: #afb1b8;
 }
-
-.icon-bottom {
-  fill: var(--insta-color);
-}
-.icon-bottom:hover {
+.icon-media-list:hover,
+.icon-media-list:focus {
+  background-color: var(--address-color);
   fill: var(--icon-colors);
 }
 /*Секция 5*/
