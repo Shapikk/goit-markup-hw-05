@@ -312,6 +312,10 @@ span.studio {
 }*/
 
 /* Footer*/
+.fotterss {
+  display: flex;
+  align-items: baseline;
+}
 .logo-two {
   color: var(--address-color);
 
@@ -424,7 +428,8 @@ span.studio-two {
 .button.secondary:not(:first-child) {
   margin-right: 0;
 }
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
   color: #ffffff;
   background-color: var(--address-color);
 }
