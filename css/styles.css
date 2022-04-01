@@ -258,11 +258,11 @@ span.studio {
 .icon-media {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
+  margin-right: 0px;
   border-radius: 50%;
 }
 .icon-media:not(:last-child) {
-  margin-right: 0;
+  margin-right: 10px;
 }
 .icon-media-list {
   display: flex;
@@ -307,9 +307,6 @@ span.studio {
   border: 1px solid #2196f3;
   fill: var(--address-color);
 }
-/*.boxs-boxs {
-  fill: var(--insta-color);
-}*/
 
 /* Footer*/
 .fotterss {
@@ -375,14 +372,18 @@ span.studio-two {
   display: flex;
   padding-left: 0;
   list-style: none;
+  margin: 0;
 }
 .icon-medias {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
+  margin-right: 0x;
   padding: 0;
+}
+.icon-medias:not(:last-child) {
+  margin-right: 10px;
 }
 .follow-li {
   display: flex;
