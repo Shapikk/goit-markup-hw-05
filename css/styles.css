@@ -435,6 +435,10 @@ span.studio-two {
   background-color: var(--address-color);
 }
 /* Портфолио*/
+.ports-lists {
+  text-decoration: none;
+  color: #757575;
+}
 .ports-lists:hover,
 .ports-lists:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
