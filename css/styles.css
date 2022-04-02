@@ -285,6 +285,12 @@ span.studio {
   margin: 0;
   display: flex;
 }
+.icons-medias {
+  margin-right: 0;
+}
+.icons-medias:not(:last-child) {
+  margin-right: 30px;
+}
 .icons-medias-li {
   width: 170px;
   height: 92px;
@@ -296,11 +302,7 @@ span.studio {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 30px;
   fill: #afb1b8;
-}
-.icons-medias-li:not(:last-child) {
-  margin-right: 0;
 }
 .icons-medias-li:hover,
 .icons-medias-li:focus {
@@ -443,8 +445,6 @@ span.studio-two {
 .ports-lists:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  background: #ffffff;
-  border: 1px solid #eeeeee;
   display: block;
 }
 .port-name {
