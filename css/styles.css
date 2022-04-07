@@ -5,6 +5,7 @@
   --icon-color: #757575;
   --icon-colors: #ffffff;
   --insta-color: #afb1b8;
+  --o-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
   color: var(--primery-text-color);
