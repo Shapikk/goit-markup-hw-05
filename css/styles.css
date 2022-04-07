@@ -227,6 +227,16 @@ span.studio {
   background: #f5f4fa;
   border-radius: 4px;
 }
+
+.top {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 1;
+  letter-spacing: 0.03em;
+
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
 /* Секция 4  */
 .section-com {
   background-color: #f5f4fa;
