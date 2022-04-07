@@ -211,6 +211,8 @@ span.studio {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  position: relative;
 }
 .img-g:last-child {
   margin-right: 0;
@@ -231,11 +233,19 @@ span.studio {
 .top {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 1;
+  line-height: 1.14;
   letter-spacing: 0.03em;
-
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 27px;
+  margin: 0;
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
 }
 /* Секция 4  */
 .section-com {
