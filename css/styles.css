@@ -119,6 +119,21 @@ span.studio {
 .icon-tell {
   margin-right: 10px;
 }
+.link.current {
+  position: relative;
+  color: var(--address-color);
+}
+.link.current::after {
+  content: '';
+  position: absolute;
+
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 4px;
+  background: var(--address-color);
+  border-radius: 2px;
+}
 /* Секция 1  */
 .hero {
   background-color: #2f303a;
