@@ -493,7 +493,6 @@ span.studio-two {
 }
 /* Портфолио*/
 .ports-lists {
-  position: relative;
   text-decoration: none;
   color: #757575;
 }
@@ -504,29 +503,6 @@ span.studio-two {
   display: block;
 }
 
-.coca-cola {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 294px;
-  opacity: 0;
-  background-color: rgba(33, 150, 243, 0.9);
-}
-.coca-cola:hover {
-  opacity: 1;
-}
-.portfolios {
-  display: block;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
-  color: var(--icon-colors);
-  margin: 0;
-  padding-top: 64px;
-  padding-left: 24px;
-}
 .port-name {
   font-weight: bold;
   font-size: 18px;
@@ -567,7 +543,31 @@ span.studio-two {
 .port:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+/* Анимация */
+.coca-cola {
+  position: relative;
+  overflow: hidden;
+}
+.portfolios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background: rgba(33, 150, 243, 0.9);
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  padding: 63px 24px;
 
+  transform: translateY(100%);
+}
+.portfolios:hover .ports-lists,
+.portfolios:focus .ports-lists {
+  transform: translateY(0%);
+}
 /*  Модальное окно */
 .backdrop {
   position: fixed;
