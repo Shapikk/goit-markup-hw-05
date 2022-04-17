@@ -673,8 +673,9 @@ span.studio-two {
   height: 120px;
 }
 .form-form textarea::placeholder {
-  rgba(117, 117, 117, 0.5);
+  color: rgba(117, 117, 117, 0.5);
 }
+
 textarea {
   resize: none;
 }
@@ -694,7 +695,6 @@ textarea {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-
 }
 .footer-subs input {
   width: 358px;
