@@ -465,6 +465,7 @@ span.studio-two {
   letter-spacing: 0.06em;
   padding: 10px 32px;
   border: none;
+  border-radius: 4px;
 }
 /* Потрфолио кнопки  */
 .button.secondary {
@@ -640,13 +641,13 @@ span.studio-two {
   letter-spacing: 0.06em;
   padding: 10px 32px;
   border: none;
+  border-radius: 4px;
 }
 .form {
   margin: 40px;
 }
 
 .form-form {
-  border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   display: flex;
@@ -657,8 +658,29 @@ span.studio-two {
   line-height: 1, 6;
   text-align: left;
 }
+.form-form label {
+  margin-bottom: 4px;
+  color: #757575;
+}
+.form-form input {
+  margin: 0;
+  padding: 0;
+  width: 448px;
+  height: 40px;
+}
+.form-form textarea {
+  width: 448px;
+  height: 120px;
+}
+.form-form textarea::placeholder {
+  rgba(117, 117, 117, 0.5);
+}
 textarea {
   resize: none;
+}
+.form-form input[type='checkbox'] {
+  width: 16px;
+  height: 15px;
 }
 .names-h {
   font-weight: 700;
@@ -672,4 +694,9 @@ textarea {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+}
+.footer-subs input {
+  width: 358px;
+  height: 50px;
 }
