@@ -646,41 +646,60 @@ span.studio-two {
 .form {
   margin: 40px;
 }
-
+.names-h {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1, 1;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .form-form {
-  box-sizing: border-box;
-  border-radius: 4px;
   display: flex;
   flex-direction: column;
-
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1, 6;
-  text-align: left;
+  margin-bottom: 10px;
+  position: relative;
 }
 .form-form label {
   margin-bottom: 4px;
   color: #757575;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1, 1;
+  text-align: left;
 }
 .form-form input {
   margin: 0;
-  padding: 0;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
 }
+.icon-form {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-top: 3px;
+  position: absolute;
+  left: 12px;
+  bottom: 11px;
+}
 .form-form textarea {
   padding-top: 12px;
   padding-left: 16px;
   padding-right: 12px;
   padding-bottom: 16px;
+
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1, 1;
+  letter-spacing: 0.01em;
 }
 .form-form textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
@@ -693,13 +712,40 @@ textarea {
   width: 16px;
   height: 15px;
 }
-.names-h {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1, 1;
-  text-align: center;
-  letter-spacing: 0.03em;
+.form-form-checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
+.form-form-checkbox label {
+  position: relative;
+  margin-left: 36px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.form-form-checkbox input {
+  appearance: none;
+}
+.checkbox-a {
+  color: var(--address-color);
+  margin-left: 4px;
+}
+.icon-checkbox {
+  position: absolute;
+  border: 2px solid #2a2a2a;
+  border-radius: 4px;
+  fill: var(--title-text-color);
+  margin-left: 12px;
+  width: 16px;
+  height: 15px;
+}
+
 .footer-subs {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
