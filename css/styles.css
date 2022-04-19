@@ -631,20 +631,12 @@ span.studio-two {
 
 .but-close {
   fill: #000000;
+  transition: fill 250ms var(--o-transition-timing-function);
 }
-
+.but-close:hover {
+  fill: var(--address-color);
+}
 /* Модальное окно */
-.button-two {
-  background-color: var(--address-color);
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  padding: 10px 32px;
-  border: none;
-  border-radius: 4px;
-}
 .form {
   margin: 40px;
 }
@@ -680,8 +672,7 @@ span.studio-two {
   border-radius: 4px;
   cursor: pointer;
   outline: transparent;
-  transition: border-color 250ms var(--o-transition-timing-function),
-    fill 250ms var(--o-transition-timing-function);
+  transition: border-color 250ms var(--o-transition-timing-function);
 }
 
 .icon-form {
@@ -697,9 +688,15 @@ span.studio-two {
 }
 .form-form input:hover,
 .form-form input:focus {
-  outline: none;
   border-color: var(--address-color);
+  transition: border-color 250ms var(--o-transition-timing-function);
 }
+.form-form input:hover ~ .icon-form,
+.form-form input:focus ~ .icon-form {
+  fill: var(--address-color);
+  transition: fill 250ms var(--primery-text-color);
+}
+
 .form-form:focus-visible {
   border: 1px solid #2196f3;
   box-sizing: border-box;
@@ -776,6 +773,15 @@ textarea {
   width: 16px;
   height: 15px;
 }
+
+.checkbox:checked ~ .icon-checkbox {
+  fill: var(--address-color);
+  border-color: var(--address-color);
+  background-color: var(--address-color);
+  background-origin: border-box;
+  background-size: contain;
+}
+
 .button-form {
   background-color: var(--address-color);
   color: #ffffff;
@@ -786,15 +792,40 @@ textarea {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: background-color 250ms var(--o-transition-timing-function);
+}
+.button-form:hover {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Footer подпишись */
-.footer-subs {
+
+.footer-subs input {
+  width: 358px;
+  height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  background: #2f303a;
+  color: var(--primary-text-color);
+  padding-left: 16px;
+  outline: transparent;
 }
-.footer-subs input {
-  width: 358px;
-  height: 50px;
+.button-tw {
+  background-color: var(--address-color);
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  padding: 10px 29px 10px 29px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 12px;
+}
+.subs {
+  margin-left: 10px;
+  margin-bottom: -5px;
 }
