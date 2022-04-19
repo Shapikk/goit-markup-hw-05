@@ -728,10 +728,10 @@ span.studio-two {
 .form-form textarea:focus {
   border-color: var(--address-color);
 }
-/*.form-form textarea:focus-visible {
+.form-form textarea:focus-visible {
   border: 1px solid #2196f3;
   border-radius: 4px;
-}*/
+}
 .form-form textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
